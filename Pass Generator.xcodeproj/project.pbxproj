@@ -19,6 +19,7 @@
 		188C63282A22CF2200AC422B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		188C632A2A22CF2600AC422B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		188C632D2A22CF2600AC422B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		188C63342A22DBBE00AC422B /* Pass Generator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pass Generator.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		188C63252A22CF2200AC422B /* Pass Generator */ = {
 			isa = PBXGroup;
 			children = (
+				188C63342A22DBBE00AC422B /* Pass Generator.entitlements */,
 				188C63262A22CF2200AC422B /* Pass_GeneratorApp.swift */,
 				188C63282A22CF2200AC422B /* ContentView.swift */,
 				188C632A2A22CF2600AC422B /* Assets.xcassets */,
@@ -264,6 +266,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Pass Generator/Pass Generator.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pass Generator/Preview Content\"";
@@ -293,6 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Pass Generator/Pass Generator.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pass Generator/Preview Content\"";
